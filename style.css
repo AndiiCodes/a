@@ -1,13 +1,233 @@
-.hi{
-    content: "";
-position: absolute;
-inset: -.625em;
-background: linear-gradient(to bottom right, 
-#ff00cc, #333399 , #1FA2FF);
-filter: blur(2.5em);
-/* border-radius: 0%; */
-z-index: -1;
-    height: 1000px;
-    width: 500px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins' , 'sans-serif';
+}
+
+.circle{
+    border-radius: 5px;
+    width:50px;
+    height:50px;
+}
+.icon{
+    width:50px;
+    height:50px;    
+}
+[role=link].contrast, a.contrast{
+    color: white;
+    font-family: 'Poppins' , 'sans-serif';
+}
+
+.p{
     
+    margin-bottom: 0px;
+    font-family: 'Poppins' , 'sans-serif';
+}
+.center{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.text1{
+    font-size: 80px;
+}
+
+.yellow{
+    /* background: -webkit-linear-gradient(#ff00cc, #333399 , #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* background: linear-gradient(298deg, #ff00cc, #333399 , #1FA2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #fff;
+}
+.gradient{
+    content: "";
+    position: absolute;
+    inset: -.625em;
+    background: linear-gradient(to bottom right, 
+    #ff00cc, #333399 , #1FA2FF);
+    filter: blur(2.5em);
+    border-radius: 50%;
+    z-index: -1;
+    height: 20em;
+    width: 10em;
+    
+}
+.shadow{
+    text-shadow: 2px 2px 40px rgb(0, 0, 0);
+}
+.auto-type{
+    text-shadow: 2px 2px 20px #333;
+}
+.up{
+    position: relative;
+    bottom: 150px;
+}
+.social{
+    width: 25px;
+    height: 25px;     
+    margin-left: 100px;
+    
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    right: 50px;
+    
+    
+
+}
+
+a {
+    all: initial;
+}
+a:hover{
+    cursor: pointer;
+    
+}
+blockquote{
+    border-left: 0.25rem solid var(--blockquote-border-color);
+    -webkit-border-start: 0.25rem solid var(--blockquote-border-color);
+    border-inline-start: 0.25rem solid rgb(73, 73, 218);
+    -webkit-border-end: none;
+    border-inline-end: none;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+
+.title{
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  ul li{
+      list-style: none;
+  }
+  li img{
+      width: 30px;
+      height: 30px;
+  }
+
+
+.btn{
+    font-family: 'Poppins' , 'sans serif';
+}
+.gradient2{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom right, 
+     #ff00cc, #333399 , #1FA2FF);
+    filter: blur(10em);
+    border-radius: 50%;
+    z-index: -1;
+    height: 10em;
+    width: 50em;
+    
+    
+}
+.gradient3{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom right, 
+     #ff00cc, #333399 , #1FA2FF);
+    filter: blur(10em);
+    border-radius: 50%;
+    z-index: -1;
+    height: 10em;
+    width: 50em;
+    
+    
+}
+.title-c{
+    display: block;
+}
+.text-c{
+    width: 500px;
+    /* margin-right: 500px; */
+}
+.title-c{
+    width: 50px;
+    height: 50px;
+}
+.flex{
+    display: flex;
+    /* justify-content:center; */
+}
+.container10{
+    display: inline;
+    left: 100px;
+}
+.img-1{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 200px;
+    
+    
+   
+}
+
+.link{
+    font-size: 23px;
+    color: crimson;
+    font-family: 'Poppins';
+    
+}
+.brand{
+    color: white;
+    
+}
+.ft{
+    position: absolute;
+    height: 100px;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.f-text{
+    color: rgb(236, 240, 6);
+    font-size: 33px;
+    font-family: 'Poppins';
+}
+.wid{
+    text-align: center;
+    width: 250px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.spn{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+.pico{
+    color: rgb(55, 100, 224);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.foot-2{
+    margin-bottom: 0px;
 }
