@@ -1,10 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-*{
-overflow-y:hidden;
-}
+
+
 body{
     font-family: 'Poppins' , 'sans-serif';
 }
+
+@media only screen and (max-width: 389px){
+    body{
+        overflow-x: hidden;
+        width: 100vw;
+    }
+    .mid{
+        font-size: 40px !important;
+        text-align: center;
+        
+    }
+    .nav-btn a{
+        font-size: 10px !important;
+    }
+}
+nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+
+@media (max-width: 390px) {
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 .circle{
     border-radius: 5px;
@@ -46,7 +111,7 @@ body{
     color: #fff;
 }
 .gradient{
-    content: "";
+    /* content: "";
     position: absolute;
     inset: -.625em;
     background: linear-gradient(to bottom right, 
@@ -55,7 +120,16 @@ body{
     border-radius: 50%;
     z-index: -1;
     height: 20em;
-    width: 10em;
+    width: 10em; */
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom right, 
+     #ff00cc, #333399 , #1FA2FF);
+    filter: blur(5em);
+    border-radius: 30%;
+    z-index: -1;
+    height: 10em;
+    width: 100%;
     
 }
 .shadow{
@@ -195,6 +269,7 @@ blockquote{
 }
 .brand{
     color: white;
+    text-align: center;
     
 }
 .ft{
