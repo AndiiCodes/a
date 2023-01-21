@@ -61,6 +61,13 @@ nav .mainMenu .closeMenu {
         visibility: visible;
         
     }
+    .hidden2{
+        visibility: hidden;
+    }
+    .show{
+        visibility: visible;
+    }
+        
     .fa-bars{
         margin-top: 50px;
 
