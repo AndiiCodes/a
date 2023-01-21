@@ -90,8 +90,8 @@ nav .mainMenu .closeMenu {
     nav .mainMenu .closeMenu {
       display: block;
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 0px;
+      right: 0px;
     }
     nav .openMenu {
       display: block;
