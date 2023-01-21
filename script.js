@@ -54,22 +54,18 @@ menu_items.forEach(item => {
 
 function show(){
     mainMenu.style.display = 'flex';
+    mainMenu.classList.add("show");
+    mainMenu.classList.remove("hidden");
     mainMenu.style.top = '0';
+    
 }
 function close(){
+    mainMenu.classList.remove("show");
+    mainMenu.classList.add("hidden");
     mainMenu.style.top = '-100%';
 }
 
-var docWidth = document.documentElement.offsetWidth;
 
-[].forEach.call(
-  document.querySelectorAll('*'),
-  function(el) {
-    if (el.offsetWidth > docWidth) {
-      console.log(el);
-    }
-  }
-);
 
 
 
