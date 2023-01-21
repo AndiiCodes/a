@@ -55,7 +55,7 @@ menu_items.forEach(item => {
 function show(){
     mainMenu.style.display = 'flex';
     mainMenu.classList.add("show");
-    mainMenu.classList.remove("hidden");
+    mainMenu.classList.remove("hidden2");
     mainMenu.style.top = '0';
     
 }
