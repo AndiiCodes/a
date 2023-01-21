@@ -76,7 +76,7 @@ nav .mainMenu .closeMenu {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: rgb(0, 0, 0);
+      background: #333;
       transition: top 1s ease 0s;
       display: none;
     }
