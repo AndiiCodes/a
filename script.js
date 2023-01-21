@@ -1,5 +1,3 @@
-// import Typed from 'typed.js';
-
 var typed = new Typed(".auto-type" ,{
 
     strings: ['Front-End Developer &#129321;', 'Freelancer &#128578;', 'Snapchat Lens Creator &#128519;'],
@@ -10,8 +8,30 @@ var typed = new Typed(".auto-type" ,{
 })
 
 
+var typed = new Typed(".story" ,{
 
-// var typed = new Typed('.auto-type', options);
+    strings: ['My journey with technology began '+
+    'when I was just 9 years old, in 2010. '+
+    'It was then that my father introduced '+
+    'me to the basics of using a computer '+
+    'and I quickly became fascinated with '+
+    'the world of technology. I spent countless '+
+    'hours exploring new software and reading '+
+    'up on the latest advancements in the field, '+
+    'always eager to learn more. As I grew older, '+
+    'I knew that I wanted to make a career out of '+
+    'my passion for technology. I decided to focus '+
+    'on front-end development, drawn to the creative '+
+    'and visually appealing aspects of this field. '+
+    'I have dedicated myself to learning and improving '+
+    'my skills, and am excited to see where my career '+
+    'takes me in the future.'],
+    typeSpeed: 30,
+    backSpeed: 50,
+    loop: false
+
+})
+
 
 
 const mainMenu = document.querySelector('.mainMenu');
@@ -39,6 +59,17 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+
+var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
 
 
 
