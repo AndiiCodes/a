@@ -320,8 +320,8 @@ blockquote{
 }
 
 .f-text{
-    color: rgb(236, 240, 6);
-    font-size: 33px;
+    color: crimson;
+    font-size: 28px;
     font-family: 'Poppins';
 }
 .wid{
@@ -338,7 +338,7 @@ blockquote{
     text-align: center;
 }
 .pico{
-    color: rgb(55, 100, 224);
+    color: crimson;
     font-size: 25px;
     margin-bottom: 10px;
 }
