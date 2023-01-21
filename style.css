@@ -3,30 +3,69 @@
 
 body{
     font-family: 'Poppins' , 'sans-serif';
+    
 }
 
-@media only screen and (max-width: 389px){
-    body{
-        overflow-x: hidden;
-        width: 100vw;
-    }
-    .mid{
-        font-size: 40px !important;
-        text-align: center;
-        
-    }
-    .nav-btn a{
-        font-size: 10px !important;
-    }
+
+.hidden{
+    visibility: hidden;
 }
-nav .mainMenu .closeMenu,
-  .icons i {
+
+nav .mainMenu .closeMenu {
     font-size: 2rem;
     display: none;
     cursor: pointer;
   }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
+    .mid{
+        font-size: 40px !important;
+        text-align: center;
+        
+    }
+    .ic{
+        margin-top: 20px;
+    }
+    .icons{
+        display: none;
+    }
+    .icons2{
+        visibility: visible !important;
+    }
+    .icons2 i {
+        display: inline-block;
+        padding: 12px;
+      }
+    .nav-btn a{
+        font-size: 10px !important;
+    }
+
+
+    .gradient  , .gradient2 , .gradient3{
+        width: 300px !important;
+        height: 300px !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .img-1{
+        /* position: absolute; */
+        margin-left: 0px !important;
+    }
+    
+    .circle{
+        width: 50px !important;
+        height: 50px !important;    
+    }
+    .hidden{
+        visibility: visible;
+        
+    }
+    .fa-bars{
+        margin-top: 50px;
+
+    }
+    
     nav .mainMenu {
       height: 100vh;
       position: fixed;
@@ -54,30 +93,21 @@ nav .mainMenu .closeMenu,
       background: none;
       color: rgb(255, 123, 0);
     }
-    .icons i {
-      display: inline-block;
-      padding: 12px;
+    blockquote{
+        letter-spacing: 0px !important;
+        word-spacing: 0px !important;
+        font-size: 14px;
     }
+    
   }
-
-
-
-
-
-
-
-
-
-
-
 
 .circle{
     border-radius: 5px;
-    width:50px;
+    min-width:50px;
     height:50px;
 }
 .icon{
-    width:50px;
+    min-width:60px;
     height:50px;    
 }
 [role=link].contrast, a.contrast{
@@ -143,7 +173,7 @@ nav .mainMenu .closeMenu,
     bottom: 150px;
 }
 .social{
-    width: 25px;
+    max-width: 25px;
     height: 25px;     
     margin-left: 100px;
     
@@ -183,7 +213,7 @@ blockquote{
 
 .column {
     float: left;
-    width: 50%;
+    min-width: 50%;
     padding: 10px;
      /* Should be removed. Only for demonstration */
   }
@@ -198,7 +228,7 @@ blockquote{
       list-style: none;
   }
   li img{
-      width: 30px;
+      min-width: 30px;
       height: 30px;
   }
 
@@ -236,11 +266,11 @@ blockquote{
     display: block;
 }
 .text-c{
-    width: 500px;
+    max-width: 500px;
     /* margin-right: 500px; */
 }
 .title-c{
-    width: 50px;
+    max-width: 50px;
     height: 50px;
 }
 .flex{
@@ -252,7 +282,7 @@ blockquote{
     left: 100px;
 }
 .img-1{
-    width: 250px;
+    max-width: 250px;
     height: 200px;
     border-radius: 10px;
     margin-left: 200px;
@@ -289,14 +319,14 @@ blockquote{
 }
 .wid{
     text-align: center;
-    width: 250px;
+    max-width: 250px;
 }
 .container1{
     display: flex;
     justify-content: center;
 }
 .spn{
-    width: 500px;
+    max-width: 500px;
     height: 200px;
     text-align: center;
 }
