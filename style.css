@@ -91,7 +91,7 @@ nav .mainMenu .closeMenu {
       display: block;
       position: absolute;
       top: 0px;
-      right: 0px;
+      right: 20px;
     }
     nav .openMenu {
       display: block;
