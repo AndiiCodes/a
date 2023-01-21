@@ -17,7 +17,7 @@ nav .mainMenu .closeMenu {
     cursor: pointer;
   }
 
-@media (max-width: 900px) {
+@media (max-width: 1284px) {
     .mid{
         font-size: 40px !important;
         text-align: center;
