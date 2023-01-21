@@ -89,7 +89,7 @@ nav .mainMenu .closeMenu {
     }
     nav .mainMenu .closeMenu {
       display: block;
-      position: absolute;
+      
       margin-top: 1px;
       margin-right: 1px;
     }
