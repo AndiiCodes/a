@@ -17,11 +17,14 @@ nav .mainMenu .closeMenu {
     cursor: pointer;
   }
 
-@media (max-width: 1284px) {
+@media (max-width: 800px) {
     .mid{
         font-size: 40px !important;
         text-align: center;
         
+    }
+    .db{
+        margin-left: 1px;
     }
     .ic{
         margin-top: 20px;
@@ -45,6 +48,26 @@ nav .mainMenu .closeMenu {
         width: 300px !important;
         height: 300px !important;
     }
+    .gradient4{
+        content: "";
+        position: absolute;
+        background: linear-gradient(to bottom right, 
+         #ff00cc, #333399 , #1FA2FF);
+        filter: blur(5em);
+        border-radius: 30%;
+        z-index: -1;
+        height: 10em;
+        width: 100%;
+        
+    }
+    .gradient4{
+        width: 600px;
+        height: 400px;
+        margin-right: 900px;
+    }
+    .fa-github,.fa-snapchat,.fa-instagram,.fa-twitter{
+        font-size: 25px;
+    }
     body{
         overflow-x: hidden;
     }
@@ -67,7 +90,6 @@ nav .mainMenu .closeMenu {
     .show{
         visibility: visible;
     }
-        
     .fa-bars{
         margin-top: 50px;
 
@@ -83,22 +105,22 @@ nav .mainMenu .closeMenu {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: #333;
+      background: #11191f;
       transition: top 1s ease 0s;
       display: none;
     }
     nav .mainMenu .closeMenu {
       display: block;
       position: absolute;
-      margin-bottom: 650px;
-      right: 50px;
+      top: 0px;
+      right: 20px;
     }
     nav .openMenu {
       display: block;
     }
     nav .mainMenu li a:hover {
       background: none;
-      color: rgb(255, 123, 0);
+      color: crimson;
     }
     blockquote{
         letter-spacing: 0px !important;
@@ -169,6 +191,7 @@ nav .mainMenu .closeMenu {
     width: 100%;
     
 }
+
 .shadow{
     text-shadow: 2px 2px 40px rgb(0, 0, 0);
 }
@@ -189,7 +212,7 @@ nav .mainMenu .closeMenu {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 100px;
+    top: 57px;
     right: 50px;
     
     
@@ -321,7 +344,7 @@ blockquote{
 
 .f-text{
     color: crimson;
-    font-size: 28px;
+    font-size: 33px;
     font-family: 'Poppins';
 }
 .wid{
