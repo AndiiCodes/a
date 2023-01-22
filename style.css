@@ -41,7 +41,7 @@ nav .mainMenu .closeMenu {
         
       }
       .icons2 a{
-          color: white;
+          color: white !important;
       }
     .nav-btn a{
         font-size: 10px !important;
