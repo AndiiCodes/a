@@ -10,6 +10,9 @@ body{
 .hidden{
     visibility: hidden;
 }
+.icons2 i{
+    visibility:hidden;
+}
 
 nav .mainMenu .closeMenu {
     font-size: 2rem;
