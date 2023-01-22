@@ -11,9 +11,9 @@ body{
     visibility: hidden;
 }
 .icons2 i{
+    
     display: none;
 }
-
 nav .mainMenu .closeMenu {
     font-size: 2rem;
     display: none;
@@ -35,16 +35,16 @@ nav .mainMenu .closeMenu {
     .icons{
         display: none;
     }
-    .icons2{
+    .icons2 i{
         visibility: visible !important;
     }
     .icons2 i {
         display: inline-block;
         padding: 12px;
-        
+
       }
       .icons2 a{
-          color: white !important;
+          color: white;
       }
     .nav-btn a{
         font-size: 10px !important;
@@ -119,8 +119,8 @@ nav .mainMenu .closeMenu {
     nav .mainMenu .closeMenu {
       display: block;
       position: absolute;
-      margin-bottom: 600px;
-      right: 50px;
+      top: 0px;
+      right: 20px;
     }
     nav .openMenu {
       display: block;
@@ -351,7 +351,7 @@ blockquote{
 
 .f-text{
     color: crimson;
-    font-size: 33px;
+    font-size: 25px;
     font-family: 'Poppins';
 }
 .wid{
@@ -374,4 +374,11 @@ blockquote{
 }
 .foot-2{
     margin-bottom: 0px;
+}
+.wid{
+    margin-top: 50px;
+}
+.email a{
+    color: crimson;
+    font-family: 'Poppins';
 }
