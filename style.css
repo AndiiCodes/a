@@ -38,6 +38,10 @@ nav .mainMenu .closeMenu {
     .icons2 i {
         display: inline-block;
         padding: 12px;
+        
+      }
+      .icons2 a{
+          color: white;
       }
     .nav-btn a{
         font-size: 10px !important;
@@ -112,8 +116,8 @@ nav .mainMenu .closeMenu {
     nav .mainMenu .closeMenu {
       display: block;
       position: absolute;
-      top: 0px;
-      right: 20px;
+      margin-bottom: 600px;
+      right: 50px;
     }
     nav .openMenu {
       display: block;
