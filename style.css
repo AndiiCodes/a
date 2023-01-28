@@ -26,6 +26,9 @@ nav .mainMenu .closeMenu {
         text-align: center;
         
     }
+    .fa-external-link-alt{
+    font-size: 16px;
+    }
     .db{
         margin-left: 1px;
     }
