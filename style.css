@@ -382,3 +382,10 @@ blockquote{
     color: crimson;
     font-family: 'Poppins';
 }
+.fa-external-link-alt{
+    color: white;
+    font-size: 22px;
+}
+.container .grid a:hover{
+    text-decoration: underline crimson;
+}
